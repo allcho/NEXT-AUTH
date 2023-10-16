@@ -1,0 +1,24 @@
+{
+  "name": "taxi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3044 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-auth": "^4.23.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.47.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

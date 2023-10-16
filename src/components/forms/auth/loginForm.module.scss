@@ -1,0 +1,112 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    & > div{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-color: #ebebeb;
+        
+        & > div{
+            width: 560px;
+            background: #fff;
+            border-radius: 10px;
+            position: relative;
+            padding: 55px 85px;
+            & > span{
+                // font-family: Raleway-Medium;
+                font-size: 30px;
+                color: #555;
+                line-height: 1.2;
+                text-transform: uppercase;
+                text-align: left;
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+            }
+            & form{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                & > span{
+                    font-size: 13px;
+                    color: #555;
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    padding-bottom: 11px;
+                }
+                & > div:not(:last-child){
+                    width: 100%;
+                    position: relative;
+                    background-color: #fff;
+                    border: 1px solid #e6e6e6;
+                    border-radius: 2px;
+                    margin-bottom: 36px;
+
+                    & > input {
+                        color: #555;
+                        line-height: 1.2;
+                        font-size: 18px;
+                        display: block;
+                        width: 100%;
+                        background: 0 0;
+                        height: 55px;
+                        padding: 0 25px;
+                        outline: none;
+                        border: none;
+                        overflow: visible;
+                        &:focus{
+                            border: 1px solid #fbc840;
+                            border-radius: 3px;
+                            transition: all .4s;
+                        }
+                    }
+
+                    & > p{
+                        position: absolute;
+                        color: #d50606;
+                        font-size: 12px;
+                        top: 60px;
+                    }
+                }
+
+                & > div:last-child{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    & > button{
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 1.2;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 20px;
+                        min-width: 150px;
+                        height: 55px;
+                        background-color: #333;
+                        border-radius: 27px;
+                        transition: all .4s;
+                        outline: none !important;
+                        border: none;
+                        padding: 0;
+                        border-style: none;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #000000;
+                            background-color: #fbc840;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
